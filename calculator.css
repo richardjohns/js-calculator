@@ -1,0 +1,47 @@
+/*global*/
+* {
+  /*outline: 1px solid red;*/
+  /*-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;*/
+}
+
+body {
+  font-family: 'Saira', sans-serif;
+  background: url(https://source.unsplash.com/-WW8jBak7bo/1600x900
+  ) no-repeat center center;
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -0-background-size: cover;*/
+  background-size: cover;
+  min-height: 700px;
+  text-align: center;
+  color: white;
+
+}
+
+header {
+  margin-top: 50px;
+}
+
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+  color: white;
+  font-size: 20px;
+}
+
+#input-info {
+  background-colour: #555;
+  border: 1px solid black;
+  padding: 40px;
+}
+
+#display {
+  height: 40px;
+  font-size: 30px;
+
+}
+
+/*.container: {
+  width: 100%
+}*/

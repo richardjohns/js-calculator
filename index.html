@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Javascript Calculator</title>
+    <!-- load skeleton first, then font, then custom css last  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Saira" rel="stylesheet">
+    <link rel="stylesheet" href="calculator.css">
+    <script src="js/calculator.js"></script>
+  </head>
+
+      <body class="container">
+          <header>
+          <h1>JS Calculator</h1>
+          </header>
+
+          <form id=display>
+            <!-- <input type="text" id="inputDisplay" style="color: black;"> -->
+          </form>
+
+          <div id=history>
+          </div>
+
+          <form id="input-info">
+
+          <input type="button" id="myBtn1"
+          onclick='displayCalc("0")' value="0">
+          <input type="button" id="myBtn1" onclick='displayCalc("C")' value="C">
+          <input type="button" id="myBtn1" onclick='displayCalc("CE")' value="CE">
+          <br/>
+
+          <input type="button" id="myBtn1" onclick='displayCalc("7")' value="7">
+          <input type="button" id="myBtn1" onclick='displayCalc("8")' value="8">
+          <input type="button" id="myBtn1" onclick='displayCalc("9")' value="9">
+          <br/>
+
+          <input type="button" id="myBtn1" onclick='displayCalc("4")' value="4">
+          <input type="button" id="myBtn1" onclick='displayCalc("5")' value="5">
+          <input type="button" id="myBtn1" onclick='displayCalc("6")' value="6">
+          <br/>
+
+          <input type="button" id="myBtn1" onclick='displayCalc("1")' value="1">
+          <input type="button" id="myBtn1" onclick='displayCalc("2")' value="2">
+          <input type="button" id="myBtn1" onclick='displayCalc("3")' value="3">
+          <br/>
+
+          <input type="button" id="myBtn1" onclick='displayCalc("+")' value="+">
+          <input type="button" id="myBtn1" onclick='displayCalc("*")' value="*"/>
+          <input type="button" id="myBtn1" onclick='displayCalc("-")' value="-">
+          <br/>
+
+          <input type="button" id="myBtn1" onclick='displayCalc("/")' value="/">
+          <input type="button" id="myBtn1" onclick='displayCalc(".")' value=".">
+          <input type="button" id="equal" onclick='equals()' value="=">
+        </form>
+
+      </body>
+  </html>
